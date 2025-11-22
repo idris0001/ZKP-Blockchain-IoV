@@ -9,7 +9,8 @@ This repository contains source code and simulation scripts used in the study on
 - MATLAB scripts for:  
   - Random silent period simulation  
   - Identity Token (IT) request and blockchain interaction simulation  
-  - Performance analysis and visualization  
+  - Performance analysis and visualization
+- Entropy analysis: Entropy is computed using log₂(n) per bin; see copy_of_location_entropy.ipynb and Entropy_Calculation_Appendix.md for full details. 
 
 ## Setup Instructions
 1. Load the SUMO file in the SUMO simulator to generate realistic vehicle mobility traces derived from OpenStreetMap.  
@@ -18,7 +19,7 @@ This repository contains source code and simulation scripts used in the study on
 
 ## Notes
 - NS-3 version 3.45 is recommended for compatibility.  
-- MATLAB R2022a or newer is recommended for running the scripts.
+- MATLAB R2024a or newer is recommended for running the scripts.
 
 ---
 
