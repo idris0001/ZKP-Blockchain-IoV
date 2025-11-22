@@ -1,0 +1,12 @@
+# Legacy Scripts
+
+These scripts were developed during the early stages of the ZK-V2XChain framework.  
+They include prototype simulations, visualizations, and smart contract logic used for initial testing.  
+They were refined during development and are retained here for reference.  
+Current simulation and analysis workflows are maintained in `scripts/ablation/` and `scripts/analysis/`.
+
+Files archived here:
+- `random_silent_period.m`
+- `communication_overhead_plot.m`
+- `smart_contract_simulation.m`
+- `smart_contract_simulation_alt.m`
