@@ -21,6 +21,14 @@ This repository contains source code and simulation scripts used in the study on
 - NS-3 version 3.45 is recommended for compatibility.  
 - MATLAB R2024a or newer is recommended for running the scripts.
 
+Base Papers
+This repository builds upon the following foundational works:
+- Benarous and B. Kadri, “Obfuscation-based location privacy-preserving scheme in cloud-enabled internet of vehicles,” Peer-to-Peer Networking and Applications, vol. 15, no. 1, pp. 461–472, 2022.
+- Kumari, P. K. Singh, S. N. Gowtham, S. Nandi, U. Ghosh, and D. B. Rawat, “RFPM: A RSU-aided framework for pseudonym management to preserve location privacy in IoV,” Security and Privacy, vol. 7, no. 1, p. e329, 2024.
+- Saqib, S. U. Malik, A. Anjum, M. H. Syed, S. A. Moqurrab, G. Srivastava, and J. C.-W. Lin, “Preserving privacy in Internet of Vehicles (IoV): A novel group-leader-based shadowing scheme using blockchain,” IEEE Internet of Things Journal, vol. 10, no. 24, pp. 21421–21430, 2023
+
+
+
 ---
 
 *For any questions or issues, please contact:*  
