@@ -3,10 +3,18 @@
 This repository includes ablation experiments isolating the contributions of RSP, ZKP, and Blockchain components.
 
 ### Folder: `results/ablation/`
-- `rsp_only.csv`: Silent durations and retry metrics for RSP-only.
-- `zkp_only.csv`: Retry overhead and entropy for ZKP-only.
-- `blockchain_only.csv`: Retry distribution and silent end time for Blockchain-only.
-- `full_system.csv`: Combined results for the full ZK-V2XChain framework.
+
+- `rsp_only.csv`: Silent durations and end times for RSP-only configuration.  
+  Columns: `VehicleNumber`, `SilentDuration_sec`, `SilentEndTime_sec`
+
+- `zkp_only_log.csv`: Silent durations and end times for ZKP-only configuration.  
+  Columns: `VehicleNumber`, `SilentDuration_sec`, `SilentEndTime_sec`
+
+- `blockchain_only_log.csv`: Retry distribution and request timing for Blockchain-only configuration.  
+  Columns: `VehicleNumber`, `RequestTime_sec`, `RetryCount`
+
+- `full_system.csv`: Combined results for the full ZK-V2XChain framework.  
+  Columns: `VehicleNumber`, `SilentDuration_sec`, `SilentEndTime_sec`
 
 ### Reproduction Instructions
 1. Clone the repo.
