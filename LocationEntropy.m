@@ -19,7 +19,7 @@ plot(no_of_vehicle, CPS,  '-x', 'Color', [0.85 0.33 0.10], 'LineWidth', 2, 'Mark
 % Axis labels and title
 xlabel('Number of Vehicles', 'FontName', 'Times New Roman', 'FontSize', 9);
 ylabel('Entropy (bits)', 'FontName', 'Times New Roman', 'FontSize', 9);
-title('Comparison of Location Privacy Schemes', 'FontName', 'Times New Roman', 'FontSize', 10);
+title('Location Entropy Across Schemes', 'FontName', 'Times New Roman', 'FontSize', 10);
 
 % Font settings
 set(gca, 'FontName', 'Times New Roman', 'FontSize', 9);
@@ -28,7 +28,7 @@ yticks(0:10:50);
 grid on;
 
 % Legend with acronyms and reference numbers, styled vertically
-legend({'PROP', 'OBF [50]', 'RFPM [49]', 'GLS [34]', 'CPS [32]'}, ...
+legend({'PROP', 'OBF [47]', 'RFPM [48]', 'GLS [33]', 'CPS [30]'}, ...
        'Location', 'eastoutside', ...        % places legend to the right of the plot
        'Orientation', 'vertical', ...        % stacks entries vertically
        'FontName', 'Times New Roman', 'FontSize', 8, 'Box', 'off');
@@ -45,3 +45,4 @@ set(gcf, 'Renderer', 'painters');  % Ensures vector rendering
 exportgraphics(gcf, 'entropy_plot.pdf', ...
     'ContentType', 'vector', ...
     'BackgroundColor', 'none');
+
